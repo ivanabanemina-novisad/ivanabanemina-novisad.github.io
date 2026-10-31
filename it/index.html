@@ -3,7 +3,7 @@
 		<meta charset="utf-8">
 	    <meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="../css/style.css">
 		<link href='https://fonts.googleapis.com/css?family=Merienda' rel='stylesheet'>
 		<link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
 
@@ -199,46 +199,50 @@
 				</div>
 			</div>
 			<br>
-			<div class="row bg-light">
+			<div class="row bg-light reservation-form">
 				<div class="col">
 					<form>
 						<div class="form-row">
-						  	<div class="form-group col-6">
-						  		<h3>Book a table</h3>
-						  		<label for="inputDate"> Date</label>
-						  		<input type="date" class="form-control" id="inputDate">
-						  	</div>
-						  	<div class="form-group col-6">
-						  		<h3>Your details</h3>
-						  		<label for="inputName"> Name</label>
-						  		<input type="text" class="form-control" id="inputName" placeholder="Name">
-						  	</div>
-						  	<div class="form-group col-6">
-						  		<label for="inputTime"> Time</label>
-						  		<input type="time" class="form-control" id="inputTime">
-						  	</div>
-						  	<div class="form-group col-6">
-						  		<label for="inputEmail"> Email</label>
-						  		<input type="email" class="form-control" id="inputEmail" placeholder="Email">
-						  	</div>
-						  	<div class="form-group col-6">
-						  		<label for="inputNumber"> Number of guests</label>
-						  		<input type="number" class="form-control" id="inputNumber" placeholder="Number of guests">
-						  	</div>
-						  	<div class="form-group col-6">
-						  		<label for="inputCel"> Phone number</label>
-						  		<input type="tel" class="form-control" id="inputCel" placeholder="Phone number">
-						  	</div>
+							<div class="col-md-6 reservation-group">
+								<h3>Book a table</h3>
+								<div class="form-group">
+									<label for="inputDate">Date</label>
+									<input type="date" class="form-control" id="inputDate">
+								</div>
+								<div class="form-group">
+									<label for="inputTime">Time</label>
+									<input type="time" class="form-control" id="inputTime">
+								</div>
+								<div class="form-group">
+									<label for="inputNumber">Number of guests</label>
+									<input type="number" class="form-control" id="inputNumber" placeholder="Number of guests">
+								</div>
+							</div>
+							<div class="col-md-6 reservation-group">
+								<h3>Your details</h3>
+								<div class="form-group">
+									<label for="inputName">Name</label>
+									<input type="text" class="form-control" id="inputName" placeholder="Name">
+								</div>
+								<div class="form-group">
+									<label for="inputEmail">Email</label>
+									<input type="email" class="form-control" id="inputEmail" placeholder="Email">
+								</div>
+								<div class="form-group">
+									<label for="inputCel">Phone number</label>
+									<input type="tel" class="form-control" id="inputCel" placeholder="Phone number">
+								</div>
+							</div>
   							<div class="form-group col-12">
   								<label for="inputComment"> Additional requests:</label>
 								<textarea class="form-control" rows="4" id="inputComment" placeholder="Additional requests"></textarea>
 							</div>
 					 	</div>
 						<div class="row">
-					  		<div class="col-md-4 col-md-offset-4">
-					  			<button type="submit" class="btn btn-secondary btn-block">Book now</button>
-					  		</div>
-					  	</div>
+							<div class="col-12 col-md-4 offset-md-4">
+								<button type="submit" class="btn btn-secondary btn-block">Book now</button>
+							</div>
+						</div>
 					</form>
 				</div>
 			</div>
